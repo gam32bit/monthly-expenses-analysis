@@ -22,6 +22,7 @@ can also check for duplicates with .duplicated() and can use .loc[df.duplicated(
 can also search more specifically with .query('column' == 'rowname')
 Can use ~ to do inverse of function, such as ~df.duplicated() to show non-duplicates
 
+Removed rows with in "Transfer" category.
 If rows are removed, should use .reset_index(drop=True) to reset index but hide index column
 
 <i> Feature Understanding </i>
